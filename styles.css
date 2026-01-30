@@ -1,0 +1,62 @@
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #F2CDAC;
+}
+h1{
+    font-family:'the high line';
+    size:120%;
+    color:#4C4A59;
+}
+h2{
+    Size: 110%;
+    Color: #1B7F7A;
+    display:flex;
+    align-items:left;
+}
+nav{
+    display:flex;
+    flex-direction:column;
+    font-size:100%;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-evenly;
+    font-size:100%;
+    text-decoration: none;
+    align-items:center;
+    gap: 180px;
+}
+article{
+    display:flex;
+    align-items:left;
+    Background: #4CABA6;
+    Width: 70%;
+    Padding: 1em;
+    flex-direction:column;
+}
+footer{
+    color: #6350e1;
+    Font-size: 100%;
+
+}
+a:hover{
+    color:#4CABA6;
+}
+a:link{
+    color:#1B7F7A;
+}
+a:visited{
+    color:#0897B4;
+}
+a:active{
+    color:#4C4A59;
+}
+
+blockquote{
+    text-decoration: italic;
+    display:flex;
+    align-items: left;
+}
